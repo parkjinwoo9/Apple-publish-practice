@@ -1,0 +1,94 @@
+li{
+    list-style-type: none;
+}
+#header{
+    width:100%;
+    height:40px;
+    background-color: black;
+}
+#header>#menu{
+    width:900px;
+    height:40px;
+    margin:0 auto;
+    background-color: aliceblue;
+}
+#header>#menu>img{
+    width:30px;
+    height:30px;
+    position: relative;
+    top:5px;
+    float:left;
+}
+
+
+#header>#menu>#menu-box>li>a{
+    position: relative;
+    list-style: none;
+    font-size: 9px;
+    font-weight: 900;
+    float:left;
+    margin:15px;
+    text-decoration: none;
+
+}
+#menu>#menu-box{
+    position:absolute;
+    left:500px;
+    background-color: cadetblue;
+    width:800px;
+    height:40px;
+}
+.lnb-wrap{
+    width:900px;
+    height:350px;
+    background-color: white;
+    position: absolute;
+    z-index: 9;
+    left:-85px;
+    top:40px;
+}
+.lnb-span{
+    font-size: 8px;
+    color:grey;
+}
+
+.left-lab{
+    float:left;
+    background-color: chartreuse;
+    width:200px;
+    height:250px;
+    padding:20px;
+    box-sizing: border-box;
+
+}
+.left-lab>li>a{
+    font-size: 20px ;
+    font-weight: 500;
+}
+.center-lab{
+    margin-left:20px;
+    background-color: burlywood;
+    width:200px;
+    height:200px;
+    float:left;
+    box-sizing: border-box;
+    padding:20px;
+}
+.center-lab>li>a{
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.right-lab{
+    width:200px;
+    height:200px;
+    background-color: cornflowerblue;
+    float:left;
+    box-sizing: border-box;
+    padding:20px;
+}
+
+.right-lab>li>a{
+    font-size: 10px;
+    font-weight: 700;
+}

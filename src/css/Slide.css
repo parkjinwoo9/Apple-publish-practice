@@ -1,0 +1,24 @@
+#slide{
+    width:100%;
+    height:40px;
+    background-color: antiquewhite;
+}
+
+#slide div{
+    font-size:13px;
+    text-align: center;
+    top:3px;
+}
+
+
+.slick-slide{
+    display:inline-block;
+}
+#next{
+    left:70%;
+    background-color: cadetblue;
+}
+#prev{
+    right:50%;
+    background-color: cadetblue;
+}
