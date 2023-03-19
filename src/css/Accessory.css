@@ -1,13 +1,13 @@
 #accessory{
     width:100%;
     height:600px;
-    background-color: deeppink;
+
 
 }
 #accessory>#acc-header{
     width:100%;
     height:50px;
-    background-color: goldenrod;
+
     position: relative;
     top:100px;
     
@@ -21,7 +21,7 @@
 }
 #accessory>div>#secacc{
     font-size:20px;
-    color:grey;
+
     font-weight: 600;
     position: relative;
     left:400px;
@@ -43,7 +43,7 @@
 #acc-map{
     width:300px;
     height:350px;
-    background-color: forestgreen;
+    background-color: white;
     position:relative;
     margin-left: 20px;
     text-align: center;
@@ -51,12 +51,14 @@
     top:130px;
     left:770px;
     border-radius: 20px;
+    box-shadow: 1px 1px gray;
     
 }
 #acc-map>img{
     width:200px;
     height:250px;
     padding-top: 20px;
+    
 }
 #accessory>button{
     width:50px;
@@ -79,6 +81,7 @@
 
 #acc-card img{
     transition: all 0.2s linear;
+
 }
 #acc-card img:hover{
     transform:scale(1.1);

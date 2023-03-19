@@ -4,7 +4,7 @@ import accCard2 from '../images/accCard2.jpg'
 import accCard3 from '../images/accCard3.jpg'
 import accCard4 from '../images/accCard4.jpg'
 import accCard5 from '../images/accCard5.jpg'
-import { useState} from 'react';
+import {useState} from 'react';
 
 
 function Accessory () {

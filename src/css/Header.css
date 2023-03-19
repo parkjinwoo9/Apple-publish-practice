@@ -4,13 +4,13 @@ li{
 #header{
     width:100%;
     height:40px;
-    background-color: black;
+
 }
 #header>#menu{
     width:900px;
     height:40px;
     margin:0 auto;
-    background-color: aliceblue;
+
 }
 #header>#menu>img{
     width:30px;
@@ -34,7 +34,7 @@ li{
 #menu>#menu-box{
     position:absolute;
     left:500px;
-    background-color: cadetblue;
+
     width:800px;
     height:40px;
 }
@@ -54,7 +54,7 @@ li{
 
 .left-lab{
     float:left;
-    background-color: chartreuse;
+
     width:200px;
     height:250px;
     padding:20px;
@@ -67,7 +67,7 @@ li{
 }
 .center-lab{
     margin-left:20px;
-    background-color: burlywood;
+
     width:200px;
     height:200px;
     float:left;
@@ -82,7 +82,7 @@ li{
 .right-lab{
     width:200px;
     height:200px;
-    background-color: cornflowerblue;
+
     float:left;
     box-sizing: border-box;
     padding:20px;
